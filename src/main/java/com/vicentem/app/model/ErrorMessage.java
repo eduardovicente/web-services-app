@@ -1,4 +1,4 @@
-package com.vicentem.app.controller.model;
+package com.vicentem.app.model;
 
 import java.time.LocalDateTime;
 

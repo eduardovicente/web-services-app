@@ -1,4 +1,4 @@
-package com.vicentem.app.controller.exception;
+package com.vicentem.app.exception;
 
 import java.time.LocalDateTime;
 
@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.context.request.WebRequest;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
 
-import com.vicentem.app.controller.model.ErrorMessage;
+import com.vicentem.app.model.ErrorMessage;
 
 @ControllerAdvice
 public class ExceptionsManager extends ResponseEntityExceptionHandler{

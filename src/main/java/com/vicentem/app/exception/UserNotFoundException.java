@@ -1,4 +1,4 @@
-package com.vicentem.app.controller.exception;
+package com.vicentem.app.exception;
 
 public class UserNotFoundException extends Exception {
 

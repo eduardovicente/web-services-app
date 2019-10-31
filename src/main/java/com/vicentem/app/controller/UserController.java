@@ -18,9 +18,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.vicentem.app.controller.exception.UserNotFoundException;
-import com.vicentem.app.controller.model.User;
-import com.vicentem.app.controller.service.UserService;
+import com.vicentem.app.exception.UserNotFoundException;
+import com.vicentem.app.model.User;
+import com.vicentem.app.service.UserService;
 
 @RestController
 @RequestMapping("users")

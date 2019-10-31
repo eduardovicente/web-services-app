@@ -1,4 +1,4 @@
-package com.vicentem.app.controller.service;
+package com.vicentem.app.service;
 
 import java.util.List;
 
@@ -7,9 +7,9 @@ import javax.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.vicentem.app.controller.exception.UserNotFoundException;
-import com.vicentem.app.controller.model.User;
-import com.vicentem.app.controller.repository.UserRepository;
+import com.vicentem.app.exception.UserNotFoundException;
+import com.vicentem.app.model.User;
+import com.vicentem.app.repository.UserRepository;
 
 @Service
 public class UserServiceImpl implements UserService{

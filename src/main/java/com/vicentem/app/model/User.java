@@ -1,4 +1,4 @@
-package com.vicentem.app.controller.model;
+package com.vicentem.app.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
